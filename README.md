@@ -26,7 +26,7 @@ See hover and focus states for all interactive elements on the page
 
 ## What I learned
 
-I got more confortable with using Figma (incl. dev mode) and handling the margin and padding. I also improved my general understaning of GitHub workflows, while creating new repository, moving local folders, cloning repository and using the integrated Source Control in VS Code.
+I got more confortable with using Figma (incl. dev mode) and handling the margin and padding. I also improved my general understaning of GitHub workflows, while creating new repositories, moving local folders, cloning repositories and using the integrated Source Control in VS Code.
 
 ## Continued Development
 
@@ -40,4 +40,3 @@ Since it is only my second Frontend Mentor solution, I want to keep improving my
 
 - Frontend Mentor - [margaux-works](https://www.frontendmentor.io/profile/margaux-works)
 - GitHub - [margaux-works](https://github.com/margaux-works)
-  Margaux - @margauxworks
