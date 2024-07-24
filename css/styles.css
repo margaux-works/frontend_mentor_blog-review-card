@@ -3,6 +3,9 @@
   --dark-grey: #111111;
   --light-grey: #6b6b6b;
   --white: #ffffff;
+
+  --spacing-200: 24px;
+  --spacing-150: 12px;
 }
 
 body {
@@ -23,7 +26,6 @@ body {
   border: 1px solid var(--dark-grey);
   width: 327px;
   border-radius: 20px;
-  gap: 12px;
   box-shadow: 8px 8px var(--dark-grey);
   overflow: hidden;
 }
@@ -43,16 +45,17 @@ body {
 .tag {
   display: inline;
   background-color: #f4d04e;
-  font-family: "Figtree", sans-serif;
+  font-family: 'Figtree', sans-serif;
   padding: 4px 12px 4px 12px;
   font-size: 12px;
   font-weight: 800;
   line-height: 150%;
   border-radius: 4px;
+  margin-bottom: 12px;
 }
 
 .date {
-  font-family: "Figtree", sans-serif;
+  font-family: 'Figtree', sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 150%;
@@ -60,11 +63,12 @@ body {
 }
 
 h1 {
-  font-family: "Figtree", sans-serif;
+  font-family: 'Figtree', sans-serif;
   font-weight: 800;
   font-size: 20px;
   line-height: 150%;
   color: var(--dark-grey);
+  margin: 12px 0px;
 }
 
 h1:hover {
@@ -72,24 +76,28 @@ h1:hover {
 }
 
 .description {
-  font-family: "Figtree", sans-serif;
+  font-family: 'Figtree', sans-serif;
   color: var(--light-grey);
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
+  margin: 12px 0px 24px 0px;
 }
 
 .author {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 12px;
-  font-family: "Figtree", sans-serif;
+  font-family: 'Figtree', sans-serif;
   color: var(--dark-grey);
   font-weight: 800;
   font-size: 14px;
-  line-height: 150%;
-  padding: 0px 0px 24px 0px;
+  margin-bottom: 24px;
+}
+
+.author-name {
+  padding: 0px 0px 0px 12px;
+  margin: 0px 0px;
 }
 
 .avatar {
